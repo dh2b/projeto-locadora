@@ -17,7 +17,7 @@ import br.com.tt.projeto01.repository.VeiculoRepository;
 @RequestMapping("/veiculo")
 public class VeiculoController {
 
-	private final String templates = "/veiculo";
+	private final String templates = "veiculo";
 
 	@Autowired
 	private VeiculoRepository repo;
