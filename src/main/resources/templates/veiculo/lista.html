@@ -11,8 +11,19 @@
 <body>
 	<h3>Veículos disponíveis</h3>
 <form action="/veiculo/pesquisar" method="post">
+
+<div class="input-group mb-3">
+  <input type="text" name="pesquisa" class="form-control" placeholder="Pesquisar" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+  </div>
+</div>
+
+<!--
 Pesquisa: <input type="text" name="pesquisa">
 <input type="submit" value="Buscar">
+-->
+
 
 </form>
 	<table class="table table-striped">
